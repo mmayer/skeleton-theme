@@ -335,3 +335,11 @@
 
 
 div.entry-content { border-top-style: dotted; border-width: thin; }
+
+pre.literal-block {
+	border-style: dotted;
+	border-width: thin;
+	margin: 0.5em 0.5em 0.5em 0.5em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	font-family: "Courier", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
