@@ -7,6 +7,11 @@
 * 8/17/2011
 */
 
+/* Load Fonts */
+
+@import url("fonts.css");
+
+
 
 /* Table of Content
 ==================================================
@@ -53,7 +58,8 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		//font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: 24px/32px Alegreya, Times, serif;
 		color: #444;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
@@ -64,7 +70,8 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		color: #181818;
-		font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
+		//font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
+		font-family: "MuseoSlab500", Helvetica, Arial, sans-serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px;}
@@ -116,7 +123,7 @@
 	ol ol li, ol ul li { margin-bottom: 6px; }
 	li { line-height: 18px; margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
-	li p { line-height: 21px; }
+	li p { line-height: 32px; }
 
 /* #Images
 ================================================== */
